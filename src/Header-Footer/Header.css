@@ -1,0 +1,45 @@
+.navbar {
+    background-color: rgb(239, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add padding for better spacing */
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 50px;
+    margin-left: 70px;
+}
+
+.nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none; /* Remove underline by default */
+}
+
+.nav-link:hover {
+    color: red; /* Changes the color of the navigation links to red when hovered over */
+}
+.nav-link.active {
+    color: red !important; /* Change color to red for active page */
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        color: #2e8bc0;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #2e8bc0;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+body {
+    overflow-x: hidden; 
+  }

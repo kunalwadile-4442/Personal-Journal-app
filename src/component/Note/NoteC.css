@@ -1,0 +1,53 @@
+.note{
+    padding: 25px;
+    height: 350px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.note_text{
+    flex: 1;
+    resize: none;
+    font-size: 1rem;
+    line-height: 1.80rem;
+    outline: none;
+    border: none;
+}
+
+ textarea placeholder{
+    font-weight: bold;
+    color: black;
+}
+/* .DeleteIcon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+} */
+.DeleteIcon {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 90%;
+    margin-top: -45px;
+    cursor: pointer;
+
+  }
+  
+  .DeleteIcon svg {
+    /* Add specific styles for your DeleteIcon here */
+    width: 27px;
+    height: 27px;
+    opacity: 0;
+    transition: 300ms;
+  }
+
+  .note:hover .DeleteIcon svg  {
+    opacity: 1;
+
+  }
+
+  

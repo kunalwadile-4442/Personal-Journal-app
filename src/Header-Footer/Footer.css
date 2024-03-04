@@ -1,0 +1,37 @@
+h5{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+        font-size:x-large ;
+}
+footer{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+hr{
+    color: white;
+}
+.footer-copyright{
+    background-color: rgb(239, 243, 243);
+    color: black;
+}
+
+.links li a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    font-weight: 450;
+}
+.links li a :hover{
+    color: blue;
+}
+.icon{
+    justify-content: space-between;
+}
+.social{
+    font-family: 'Courier New', Courier, monospace;
+}
+.LG{
+    margin-top: 10px;
+}
+.icon a :hover {
+    color: white;
+}

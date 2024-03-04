@@ -1,0 +1,19 @@
+.note-container{
+    /* height: 100%; */
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    background-color: white;
+}
+
+.note-container_notes{
+   
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+h2{
+    margin-top: -90px;
+    /* margin-left: 150px; */
+}
